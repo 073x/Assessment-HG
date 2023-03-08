@@ -36,4 +36,4 @@ An assessment test with Redis, NodeJS and ReactJS.
   OR
   . docker-build-services.sh
 ```
-- When making a change in the file, a rebuild of the service(s) is necessary to ensure volume sync. Or another way would be Copy the files directly in the respective docker container.
+- When making a change in the file, a rebuild of the service(s) is necessary to ensure volume sync. Or another way would be to copy the files directly in the respective docker container using docker copy command.
