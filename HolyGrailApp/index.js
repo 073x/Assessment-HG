@@ -35,7 +35,7 @@ async function data() {
 
   } catch (err) {
 
-    // There catch block is redundant as we have already handled the exceptions in helper modules of Redis service.
+    // This catch block is redundant as we have already handled the exceptions in helper modules of Redis service.
     // Although, it never hurts to take extra measures.
     console.error('Exception in data retreival module. Details: ', err);
     return RedisHeplers.init_data;
